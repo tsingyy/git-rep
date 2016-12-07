@@ -5,10 +5,15 @@ $git clone https://github.com/tsingyy/git-rep.git
 $cd git-rep
 $git checkout --orphan newbranch
 #и╬ЁЩ╬ид©б╪йВжжкЫспнд╪Чё╛х╩╨Спб╫╗README.mdё╛х╩╨С╢Фжа╩╨╢ФгЬё╛лА╫╩╣╫╠╬╣ь╡ж©Бё╛х╩╨Смфкм╣╫т╤Ёл╡ж©Б
-$git rm -rf .
-$echo "orphan branch" > README.md
-$git add .
-$git commit -m "add file README,md"
-$git push origin newbranch
+$git rm -rf .  
+
+$echo "orphan branch" > README.md  
+
+$git add .  
+
+$git commit -m "add file README,md"  
+
+$git push origin newbranch  
+
 #уБяЫ╬ммЙЁиактзожсп╡ж©Био╢╢╫╗╧б╤Ы╥жж╖ё╛╧б╤Ы╥жж╖╣дрБк╪╬мйг╦ц╥жж╖жпц╩спхн╨ндзхщё
 #╦Зж╝г╟╢╢╫╗╣дфДкШ╥жж╖ц╩спхн╨н╧ьа╙
